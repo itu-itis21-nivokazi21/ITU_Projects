@@ -1,0 +1,45 @@
+==23034== Memcheck, a memory error detector
+==23034== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==23034== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==23034== Command: ./bin/main
+==23034== 
+Computer is ready
+ALU is ready
+CPU is ready
+CUDA is ready
+GPU is ready
+CPU is attached
+GPU is attached
+ALU is ready
+CPU is ready
+CUDA is ready
+GPU is ready
+There is already a CPU
+There is already a GPU
+Operation type is:
+subtract
+Enter two integers
+3
+Operation type is:
+render
+Video is rendered
+Operation type is:
+trainModel
+AI Model is trained
+Operation type is:
+add
+Enter two integers
+6
+Operation type is:
+multiply
+Enter two integers
+20
+==23034== 
+==23034== HEAP SUMMARY:
+==23034==     in use at exit: 0 bytes in 0 blocks
+==23034==   total heap usage: 5 allocs, 5 frees, 77,862 bytes allocated
+==23034== 
+==23034== All heap blocks were freed -- no leaks are possible
+==23034== 
+==23034== For counts of detected and suppressed errors, rerun with: -v
+==23034== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

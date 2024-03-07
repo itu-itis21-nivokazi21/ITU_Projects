@@ -1,0 +1,30 @@
+Object Oriented Programming
+Erblina Nivokazi
+150200917
+Code report
+
+university_array[3].evaluate_student(student3); --Here the method evaluate_student is being called, this method is 
+in the university header file. When this method is invoked I first change the number of applications of that student.
+In this case our student3 is Amy and university_array[3] is McLaren's University.
+
+stud.set_application(stud.get_applications() + 1); --is invoked. Here the set_application method lets us access the 
+application member of the Student class, and in the parameter part we send (stud.get_applications() + 1)
+
+stud.get_applications() + 1, --Here with the help of the get_applications method we access the number of applications
+this student has and we add one to increase the number of applications by 1 each time the evaluate_student method
+is called.
+
+if((stud.get_gpa()*gpa_weigh + stud.get_gre()*gre_weigh + stud.get_toefl()*toefl_weigh + bias)>1){  
+        std::cout << stud.get_name() << " is admitted to " << name << "." << std::endl;
+Here I created an if condition to see if the student is elligible to join this university, the condition for this if is the 
+student's GPA and TOEFL, GRE scores being multiplied with the weigh that this university puts on each of these 
+variables, and if all of these members multiplied together, plus the bias that the uni has, is bigger than one (Perceptron)
+then the student is admitted to that university, otherwise they're rejected.
+
+stud.get_gpa(), stud.get_gre(), stud.get_toefl() --These are methods to access the inside of the Student object
+
+Other methods in this code:
+student.h:
+set_name() -necessary method for the main function to set the name of student4(Lily)
+get_gpa() -necessary to access the gpa value of the student object just like get_gre() and get_toefl()
+~Student() -to show that the student has logged out of the system when the main function ends
