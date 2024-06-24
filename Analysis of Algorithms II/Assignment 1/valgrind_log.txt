@@ -1,0 +1,150 @@
+==20475== Memcheck, a memory error detector
+==20475== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20475== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20475== Command: ./main 0 map1.txt
+==20475== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20475== 
+==20475== HEAP SUMMARY:
+==20475==     in use at exit: 0 bytes in 0 blocks
+==20475==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20475== 
+==20475== All heap blocks were freed -- no leaks are possible
+==20475== 
+==20475== For counts of detected and suppressed errors, rerun with: -v
+==20475== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20586== Memcheck, a memory error detector
+==20586== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20586== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20586== Command: ./main 1 map1.txt
+==20586== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20586== 
+==20586== HEAP SUMMARY:
+==20586==     in use at exit: 0 bytes in 0 blocks
+==20586==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20586== 
+==20586== All heap blocks were freed -- no leaks are possible
+==20586== 
+==20586== For counts of detected and suppressed errors, rerun with: -v
+==20586== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20644== Memcheck, a memory error detector
+==20644== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20644== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20644== Command: ./main 1 map2.txt
+==20644== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20644== 
+==20644== HEAP SUMMARY:
+==20644==     in use at exit: 0 bytes in 0 blocks
+==20644==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20644== 
+==20644== All heap blocks were freed -- no leaks are possible
+==20644== 
+==20644== For counts of detected and suppressed errors, rerun with: -v
+==20644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20683== Memcheck, a memory error detector
+==20683== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20683== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20683== Command: ./main 0 map2.txt
+==20683== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20683== 
+==20683== HEAP SUMMARY:
+==20683==     in use at exit: 0 bytes in 0 blocks
+==20683==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20683== 
+==20683== All heap blocks were freed -- no leaks are possible
+==20683== 
+==20683== For counts of detected and suppressed errors, rerun with: -v
+==20683== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20736== Memcheck, a memory error detector
+==20736== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20736== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20736== Command: ./main 0 map3.txt
+==20736== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20736== 
+==20736== HEAP SUMMARY:
+==20736==     in use at exit: 0 bytes in 0 blocks
+==20736==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20736== 
+==20736== All heap blocks were freed -- no leaks are possible
+==20736== 
+==20736== For counts of detected and suppressed errors, rerun with: -v
+==20736== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20809== Memcheck, a memory error detector
+==20809== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20809== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20809== Command: ./main 1 map3.txt
+==20809== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20809== 
+==20809== HEAP SUMMARY:
+==20809==     in use at exit: 0 bytes in 0 blocks
+==20809==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20809== 
+==20809== All heap blocks were freed -- no leaks are possible
+==20809== 
+==20809== For counts of detected and suppressed errors, rerun with: -v
+==20809== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20867== Memcheck, a memory error detector
+==20867== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20867== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20867== Command: ./main 1 map4.txt
+==20867== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20867== 
+==20867== HEAP SUMMARY:
+==20867==     in use at exit: 0 bytes in 0 blocks
+==20867==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20867== 
+==20867== All heap blocks were freed -- no leaks are possible
+==20867== 
+==20867== For counts of detected and suppressed errors, rerun with: -v
+==20867== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20915== Memcheck, a memory error detector
+==20915== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20915== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20915== Command: ./main 0 map4.txt
+==20915== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20915== 
+==20915== HEAP SUMMARY:
+==20915==     in use at exit: 0 bytes in 0 blocks
+==20915==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20915== 
+==20915== All heap blocks were freed -- no leaks are possible
+==20915== 
+==20915== For counts of detected and suppressed errors, rerun with: -v
+==20915== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==20966== Memcheck, a memory error detector
+==20966== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20966== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==20966== Command: ./main 0 map5.txt
+==20966== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==20966== 
+==20966== HEAP SUMMARY:
+==20966==     in use at exit: 0 bytes in 0 blocks
+==20966==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==20966== 
+==20966== All heap blocks were freed -- no leaks are possible
+==20966== 
+==20966== For counts of detected and suppressed errors, rerun with: -v
+==20966== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==21010== Memcheck, a memory error detector
+==21010== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21010== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==21010== Command: ./main 1 map5.txt
+==21010== 
+Usage: ./main <1 or 0> <k> <filename.txt>
+==21010== 
+==21010== HEAP SUMMARY:
+==21010==     in use at exit: 0 bytes in 0 blocks
+==21010==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==21010== 
+==21010== All heap blocks were freed -- no leaks are possible
+==21010== 
+==21010== For counts of detected and suppressed errors, rerun with: -v
+==21010== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
